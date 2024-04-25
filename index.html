@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana</title>
+</head>
+<body>
+    <header>
+        <h1>Penjelasan Gambar</h1>
+    </header>
+    <main>
+        <div class="content">
+            <div class="content-item">
+                <img src="Tokyo_Skytree_2014_Ⅲ.jpg" alt="Tokyo_Skytree_2014_Ⅲ.jpg" style="width: 200px; height: 200px;">
+                <h2>Tokyo Skytree</h2>
+                <p>Tokyo Skytree adalah sebuah menara siaran, observasi, dan rumah makan di Sumida, Tokyo, Jepang. Menara ini telah menjadi struktur tertinggi di Jepang sejak tahun 2010, dan mencapai ketinggian akhir 634 m pada bulan Maret 2011, sekaligus menjadikannya sebagai menara tertinggi di dunia, melampaui Menara Kanton di Guangzhou, Tiongkok, dan merupakan struktur tertinggi nomor dua di dunia setelah Burj Khalifa (829,84 m).</p>
+            </div>
+            <div class="content-item">
+                <img src="gedung-opera-sydney.jpg" alt="gedung-opera-sydney.jpg" style="width: 300px; height: 200px;">
+                <h2>Sydney Opera House</h2>
+                <p>Gedung Opera Sydney di Sydney, New South Wales, Australia adalah salah satu bangunan abad ke-20 yang paling unik dan terkenal. Gedung ini terletak di Bennelong Point di Sydney Harbour dekat Sydney Harbour Bridge dan pemandangan kedua bangunan ini menjadi ikon tersendiri bagi Australia.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Website Sederhana</p>
+    </footer>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: grey;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .filter {
+            margin-bottom: 20px;
+        }
+
+        .filter label {
+            margin-right: 10px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .content-item {
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-item h2 {
+            margin-top: 0;
+        }
+
+        img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 5px;
+          margin-bottom: 10px;
+        }
+
+        .content-item {
+            background-image: url('download (1).jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content-item {
+            color: white; 
+        }
+
+        .content-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center; 
+            color: white;
+        }
+    </style>
+</body>
+</html>
